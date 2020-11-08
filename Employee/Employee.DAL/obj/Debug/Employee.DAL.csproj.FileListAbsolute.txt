@@ -3,3 +3,10 @@ D:\Employee\Employee\Employee.DAL\bin\Debug\Employee.DAL.pdb
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csprojAssemblyReference.cache
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.dll
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.pdb
+D:\Employee\Employee\Employee.DAL\bin\Debug\Employee.DAL.dll.config
+D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.dll
+D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.xml
+D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csproj.CoreCompileInputs.cache
+D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csproj.CopyComplete
