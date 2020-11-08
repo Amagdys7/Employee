@@ -13,3 +13,5 @@ D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.csproj.CoreCompileInputs.
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.csproj.CopyComplete
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.dll
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.pdb
+D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.Migrations.create.resources
+D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.csproj.GenerateResource.cache

@@ -6,6 +6,8 @@
 <h2>Index</h2>
 
 
+@Html.ActionLink("Create Employee", "Create");
+
 <table class="table">
     <thead>
         <tr>
@@ -14,14 +16,12 @@
             <th scope="col">@Html.DisplayNameFor(m => m.LastName)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.EmailAddress)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.Gender)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.Password)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.Salary)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.URL)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.isactive)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.isalive)</th>
             <th scope="col">@Html.DisplayNameFor(m => m.HireDate)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.Country)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.City)</th>
+            <th scope="col"> Tools </th>
 
         </tr>
     </thead>
@@ -29,20 +29,17 @@
         @foreach (var x in Model)
         {
         <tr>
-            <th scope="col">@Html.DisplayFor(Model=>x.EmployeeID)</th>
+            <th scope="col">@Html.DisplayFor(Model => x.EmployeeID)</th>
             <th scope="col">@Html.DisplayFor(Model => x.FirstName)</th>
             <th scope="col">@Html.DisplayFor(Model => x.LastName)</th>
             <th scope="col">@Html.DisplayFor(Model => x.EmailAddress)</th>
             <th scope="col">@Html.DisplayFor(Model => x.Gender)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.Salary)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.URL)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.Password)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.isactive)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.isalive)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.HireDate)</th>
-            <th scope="col">@Html.DisplayFor(Model=>x.Country)</th>
-            <th scope="col">@Html.DisplayFor(Model => x.City)</th>
-
+            <th scope="col">@Html.DisplayFor(Model => x.Salary)</th>
+            <th scope="col">@Html.DisplayFor(Model => x.URL)</th>
+            <th scope="col">@Html.DisplayFor(Model => x.isactive)</th>
+            <th scope="col">@Html.DisplayFor(Model => x.isalive)</th>
+            <th scope="col">@Html.DisplayFor(Model => x.HireDate)</th>
+            <th>@Html.ActionLink("Edit", "Edit", new { id = x.EmployeeID }) / @Html.ActionLink("Delete", "Delete", new { id = x.EmployeeID })</th>
         </tr>
         }
      

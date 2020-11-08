@@ -52,6 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmployeeContext.cs" />
+    <Compile Include="Migrations\202011082218595_create.cs" />
+    <Compile Include="Migrations\202011082218595_create.designer.cs">
+      <DependentUpon>202011082218595_create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryClasses\EmployeeNRepository.cs" />
   </ItemGroup>
@@ -64,6 +69,11 @@
       <Project>{2bf35cb4-ed10-41b1-a2b8-43a19a4ad6b3}</Project>
       <Name>Employee.DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202011082218595_create.resx">
+      <DependentUpon>202011082218595_create.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

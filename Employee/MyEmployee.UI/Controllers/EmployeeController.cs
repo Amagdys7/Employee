@@ -14,7 +14,7 @@ namespace MyEmployee.UI.Controllers
 
         public EmployeeController(IEmployeeRepository Employeerepo)
         {
-            this._Employeerepo = _Employeerepo;
+            this._Employeerepo = new EmployeeNRepository();
         }
         // GET: Employee
         public ActionResult Index()

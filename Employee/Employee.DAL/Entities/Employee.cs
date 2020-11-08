@@ -10,6 +10,7 @@ namespace Employee.DAL.Entities
    
    public class EmployeeN
     {
+        [Key]
         public int EmployeeID { get; set; }
 
 
@@ -52,6 +53,7 @@ namespace Employee.DAL.Entities
         [DataType(DataType.DateTime)]
         [Required]
         [Display(Name ="Hire Date")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime HireDate { get; set; }
 
     }
