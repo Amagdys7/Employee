@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Employee.DAL.Entities
 {
    
-   public class Employee
+   public class EmployeeN
     {
         public int EmployeeID { get; set; }
 
