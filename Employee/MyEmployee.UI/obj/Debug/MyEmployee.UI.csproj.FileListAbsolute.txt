@@ -87,3 +87,11 @@ D:\Employee\Employee\MyEmployee.UI\obj\Debug\MyEmployee.UI.csproj.CoreCompileInp
 D:\Employee\Employee\MyEmployee.UI\obj\Debug\MyEmployee.UI.csproj.CopyComplete
 D:\Employee\Employee\MyEmployee.UI\obj\Debug\MyEmployee.UI.dll
 D:\Employee\Employee\MyEmployee.UI\obj\Debug\MyEmployee.UI.pdb
+D:\Employee\Employee\MyEmployee.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Employee\Employee\MyEmployee.UI\bin\Unity.Abstractions.dll
+D:\Employee\Employee\MyEmployee.UI\bin\Unity.Container.dll
+D:\Employee\Employee\MyEmployee.UI\bin\Unity.Mvc5.dll
+D:\Employee\Employee\MyEmployee.UI\bin\System.Threading.Tasks.Extensions.dll
+D:\Employee\Employee\MyEmployee.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Employee\Employee\MyEmployee.UI\bin\Unity.Abstractions.pdb
+D:\Employee\Employee\MyEmployee.UI\bin\Unity.Container.pdb

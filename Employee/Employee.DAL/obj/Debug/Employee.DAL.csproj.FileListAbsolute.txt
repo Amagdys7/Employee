@@ -9,3 +9,4 @@ D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.xml
 D:\Employee\Employee\Employee.DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csproj.CoreCompileInputs.cache
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csproj.CopyComplete
+D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csprojAssemblyReference.cache
