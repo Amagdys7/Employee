@@ -8,7 +8,7 @@ using Employee.DAL.Repository;
 
 namespace Employee.BL.RepositoryClasses
 {
-    class EmployeeNRepository : IEmployeeRepository
+   public  class EmployeeNRepository : IEmployeeRepository
     {
 
 

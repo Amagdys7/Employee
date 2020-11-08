@@ -1,6 +1,5 @@
 D:\Employee\Employee\Employee.DAL\bin\Debug\Employee.DAL.dll
 D:\Employee\Employee\Employee.DAL\bin\Debug\Employee.DAL.pdb
-D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.csprojAssemblyReference.cache
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.dll
 D:\Employee\Employee\Employee.DAL\obj\Debug\Employee.DAL.pdb
 D:\Employee\Employee\Employee.DAL\bin\Debug\Employee.DAL.dll.config
