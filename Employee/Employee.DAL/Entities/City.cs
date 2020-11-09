@@ -13,9 +13,13 @@ namespace Employee.DAL.Entities
         public int ID { get; set; }
         public int Name { get; set; }
 
-        public int countryID { get; set; }
+        public DateTime MyDate{get; set;}
 
-        public Country country { get; set; }
+
+        public TimeSpan Mytime { get; set; }
+        public  int countryID { get; set; }
+
+        public virtual Country country { get; set; }
 
 
     }

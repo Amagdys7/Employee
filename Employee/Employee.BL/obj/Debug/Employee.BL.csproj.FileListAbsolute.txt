@@ -15,3 +15,5 @@ D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.dll
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.pdb
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.Migrations.create.resources
 D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.csproj.GenerateResource.cache
+D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.Migrations.country_city.resources
+D:\Employee\Employee\Employee.BL\obj\Debug\Employee.BL.Migrations.d.resources

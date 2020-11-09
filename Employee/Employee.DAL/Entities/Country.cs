@@ -17,7 +17,7 @@ namespace Employee.DAL.Entities
         [MaxLength(50, ErrorMessage = "Maximam Length is 50")]
         public string CountryNAme { get; set; }
 
-        public ICollection<City> cities {get; set;}
+        public virtual ICollection<City> cities {get; set;}
 
     }
 }

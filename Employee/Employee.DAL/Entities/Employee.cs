@@ -25,6 +25,7 @@ namespace Employee.DAL.Entities
         public string EmailAddress { get; set; }
         [Required]
         [Compare("EmailAddress",ErrorMessage ="Email Address is not match")]
+        [DataType(DataType.EmailAddress)]
         public string ConfirmEmailAddress { get; set; }
 
         [Required]
@@ -42,11 +43,12 @@ namespace Employee.DAL.Entities
         public string City { get; set; }
         [DataType(DataType.Url)]
         public string URL { get; set; }
-
+     
         public string Gender { get; set; }
         [DataType(DataType.Currency)]
         public double Salary { get; set; }
         [Display(Name = "IS active")]
+        
         public bool isactive { get; set; }
         [Display(Name ="IS ALive")]
         public bool isalive { get; set; }
@@ -55,6 +57,7 @@ namespace Employee.DAL.Entities
         [Display(Name ="Hire Date")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime HireDate { get; set; }
-
+        [DataType(DataType.Time)]
+        public TimeSpan Time { get; set; }
     }
 }
