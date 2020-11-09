@@ -51,8 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\City.cs" />
+    <Compile Include="Entities\Country.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ICityRepository.cs" />
+    <Compile Include="Repository\ICountryRepository.cs" />
     <Compile Include="Repository\IEmployeeRepository.cs" />
   </ItemGroup>
   <ItemGroup>

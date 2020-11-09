@@ -58,6 +58,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryClasses\CityRepository.cs" />
+    <Compile Include="RepositoryClasses\CountryRepository.cs" />
     <Compile Include="RepositoryClasses\EmployeeNRepository.cs" />
   </ItemGroup>
   <ItemGroup>

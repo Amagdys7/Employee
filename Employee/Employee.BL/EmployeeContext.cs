@@ -17,5 +17,9 @@ namespace Employee.BL
         }
 
         public DbSet<EmployeeN> employeeNs {get; set;}
+
+        public DbSet<Country> countries { get; set; }
+        public DbSet<City> cities { get; set; }
+
     }
 }

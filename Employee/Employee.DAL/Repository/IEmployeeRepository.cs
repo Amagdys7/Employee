@@ -14,7 +14,7 @@ namespace Employee.DAL.Repository
         void Edit(EmployeeN b);
         void Remove(string EmployeeNID);
         IEnumerable<EmployeeN> GetEmployeeNs();
-        EmployeeN FindById(string BloodDonorID);
+        EmployeeN FindById(string EmployeeNID);
 
     }
 }
